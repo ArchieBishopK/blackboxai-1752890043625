@@ -1,0 +1,73 @@
+/*
+Theme Name: Institute for Young Women Development (IYWD)
+Theme URI: https://iywd.org
+Author: IYWD
+Author URI: https://iywd.org
+Description: A vibrant, bold, and professional WordPress theme for the Institute for Young Women Development, a Zimbabwean feminist NGO.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: iywd-theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, theme-options, translation-ready, accessibility-ready
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #660273; /* Primary Purple */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #7C038C; /* Accent Purple */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button, .button {
+    background-color: #7C038C;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #660273;
+}
+
+footer {
+    background-color: #591C44; /* Dark Accent Purple */
+    color: white;
+    padding: 2rem 1rem;
+}
+
+footer a {
+    color: white;
+}
